@@ -1,0 +1,13 @@
+//1.Matriz Espiral:
+//Crie um programa que gere uma matriz de tamanho N x N preenchida em espiral, seguindo o padrão de preenchimento da direita para a esquerda, de cima para baixo, da esquerda para a direita e de baixo para cima.
+
+//2.Média Móvel:
+//Escreva um programa que calcule a média móvel de uma lista de números, considerando uma janela de N elementos.
+
+//por exemplo, em um array de 10 elementos, pegue a media de 2 em 2
+
+//3.Lista de Tarefas
+//Crie uma lista de tarefas, aonde o usuario pode verificar suas tarefas e marcar quais já fopram feitas, estas sendo enviadas para a lista "realizadas"
+
+//4.Compressão de Lista:
+//Desenvolva um programa que comprima uma lista, substituindo sequências repetidas de elementos por uma única ocorrência seguida do número de repetições.
