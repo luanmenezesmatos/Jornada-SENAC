@@ -11,8 +11,7 @@ CREATE TABLE empresas(
     emp_cnpj VARCHAR(14) NOT NULL,
     emp_nome VARCHAR(100) NOT NULL,
     emp_setor VARCHAR(30) NOT NULL,
-    emp_endereco VARCHAR(200) NOT NULL,
-    emp_ativo BOOLEAN NOT NULL
+    emp_endereco VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE clientes(

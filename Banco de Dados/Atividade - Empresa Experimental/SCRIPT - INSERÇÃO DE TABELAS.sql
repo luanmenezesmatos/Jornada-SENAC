@@ -7,23 +7,23 @@ SELECT * FROM clientes;
 SELECT * FROM produtos;
 SELECT * FROM compras;
 
-INSERT INTO empresas (emp_cnpj, emp_nome, emp_setor, emp_endereco, emp_ativo)
+INSERT INTO empresas (emp_cnpj, emp_nome, emp_setor, emp_endereco)
 VALUES
-    ('30134217000155', 'Consultoria InovaDesign', 'Tecnologia', 'Rua Tecnológica, 123', TRUE),
-    ('86567901000123', 'CriativoTech Solutions', 'Moda', 'Avenida Fashion, 456', FALSE),
-    ('45678123000198', 'EmpreendeMark Tech', 'Alimentação', 'Rua das Delícias, 789', TRUE),
-    ('92345678000112', 'IdeiaFusion Consultoria', 'Saúde', 'Avenida Vital, 567', FALSE),
-    ('70912345000134', 'InovaTech Ventures', 'Decoração', 'Alameda Decorativa, 890', TRUE),
-    ('29456789000167', 'StartUpDesign Consultores', 'Turismo', 'Praça da Aventura, 123', FALSE),
-    ('15678901000190', 'InovaçãoHub Consultores', 'Esportes', 'Rua dos Atletas, 456', TRUE),
-    ('73456789000123', 'EmpreendePlus Consultoria', 'Finanças', 'Avenida do Dinheiro, 789', FALSE),
-    ('82901234000156', 'CriaçãoEstratégica', 'Automotivo', 'Praça dos Carros, 123', TRUE),
-    ('57345678000189', 'TechVision Empreendedorismo', 'Beleza', 'Rua da Beleza, 456', FALSE),
-    ('64789012000112', 'DesignEmpreendedor', 'Educação', 'Avenida do Conhecimento, 789', TRUE),
-    ('21345678000134', 'MídiaMaster Inovação', 'Mídia', 'Alameda da Comunicação, 123', FALSE),
-    ('90123456000167', 'CriatividadePro Consultoria', 'Alimentação', 'Rua dos Sabores, 456', TRUE),
-    ('51678901000190', 'EmpreendeTech Solutions', 'Saúde', 'Avenida da Vitalidade, 789', FALSE),
-    ('29987654000123', 'TechInovação', 'Tecnologia', 'Praça da Inovação, 123', TRUE);
+    ('30134217000155', 'Consultoria InovaDesign', 'Tecnologia', 'Rua Tecnológica, 123'),
+    ('86567901000123', 'CriativoTech Solutions', 'Moda', 'Avenida Fashion, 456'),
+    ('45678123000198', 'EmpreendeMark Tech', 'Alimentação', 'Rua das Delícias, 789'),
+    ('92345678000112', 'IdeiaFusion Consultoria', 'Saúde', 'Avenida Vital, 567'),
+    ('70912345000134', 'InovaTech Ventures', 'Decoração', 'Alameda Decorativa, 890'),
+    ('29456789000167', 'StartUpDesign Consultores', 'Turismo', 'Praça da Aventura, 123'),
+    ('15678901000190', 'InovaçãoHub Consultores', 'Esportes', 'Rua dos Atletas, 456'),
+    ('73456789000123', 'EmpreendePlus Consultoria', 'Finanças', 'Avenida do Dinheiro, 789'),
+    ('82901234000156', 'CriaçãoEstratégica', 'Automotivo', 'Praça dos Carros, 123'),
+    ('57345678000189', 'TechVision Empreendedorismo', 'Beleza', 'Rua da Beleza, 456'),
+    ('64789012000112', 'DesignEmpreendedor', 'Educação', 'Avenida do Conhecimento, 789'),
+    ('21345678000134', 'MídiaMaster Inovação', 'Mídia', 'Alameda da Comunicação, 123'),
+    ('90123456000167', 'CriatividadePro Consultoria', 'Alimentação', 'Rua dos Sabores, 456'),
+    ('51678901000190', 'EmpreendeTech Solutions', 'Saúde', 'Avenida da Vitalidade, 789'),
+    ('29987654000123', 'TechInovação', 'Tecnologia', 'Praça da Inovação, 123');
     
 INSERT INTO clientes (cli_cpf, cli_nome, cli_datacadastro, cli_datanasc, cli_idade, cli_endereco, cli_ativo)
 VALUES
