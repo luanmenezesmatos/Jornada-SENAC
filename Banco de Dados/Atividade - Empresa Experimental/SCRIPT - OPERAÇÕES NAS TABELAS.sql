@@ -9,7 +9,9 @@ FROM clientes;
 # Trazer uma lista de clientes maiores de 18 anos
 SELECT cli_nome, cli_idade
 FROM clientes
-WHERE cli_idade > 18;
+WHERE cli_idade >= 18;
+### OU
+SELECT * FROM clientes WHERE cli_idade >= 18;
 
 # Trazer uma lista de produtos e seus valores
 SELECT pro_nome, pro_valor

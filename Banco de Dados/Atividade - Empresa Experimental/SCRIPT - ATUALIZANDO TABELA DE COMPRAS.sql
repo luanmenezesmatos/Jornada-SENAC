@@ -1,3 +1,4 @@
+# Operadores de Console MySQL
 SELECT * FROM empresas;
 SELECT * FROM clientes;
 SELECT * FROM produtos;
