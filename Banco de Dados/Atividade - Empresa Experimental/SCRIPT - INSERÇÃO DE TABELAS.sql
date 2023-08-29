@@ -2,7 +2,10 @@ USE ideastudio;
 
 SHOW TABLES;
 
+SELECT * FROM empresas;
 SELECT * FROM clientes;
+SELECT * FROM produtos;
+SELECT * FROM compras;
 
 INSERT INTO empresas (emp_cnpj, emp_nome, emp_setor, emp_endereco, emp_ativo)
 VALUES
@@ -57,3 +60,22 @@ VALUES
     ('Criação de Blog', 150.00),
     ('Design de Embalagem', 300.00),
     ('Planejamento Estratégico', 600.00);
+    
+# Compras
+INSERT INTO compras(com_datacompra, cli_id, pro_id)
+VALUES
+	('2023-03-10', 1, 1),
+    ('2023-03-7', 2, 2),
+    ('2023-04-20', 3, 3),
+    ('2023-03-9', 4, 4),
+    ('2023-04-5', 5, 5),
+    ('2023-04-5', 6, 6),
+    ('2023-04-5', 7, 7),
+    ('2023-04-5', 8, 8),
+    ('2023-04-2', 9, 9),
+    ('2023-04-5', 10, 10),
+    ('2023-04-5', 11, 11),
+    ('2023-04-5', 12, 12),
+    ('2023-04-5', 13, 13),
+    ('2023-04-5', 14, 14),
+    ('2023-04-5', 15, 15);

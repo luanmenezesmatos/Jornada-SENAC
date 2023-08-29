@@ -1,4 +1,6 @@
 CREATE DATABASE ideastudio;
+DROP DATABASE ideastudio;
+
 USE ideastudio;
 
 SHOW DATABASES;
@@ -6,7 +8,7 @@ SHOW TABLES;
 
 CREATE TABLE empresas(
 	emp_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    emp_cnpj VARCHAR(11) NOT NULL,
+    emp_cnpj VARCHAR(14) NOT NULL,
     emp_nome VARCHAR(100) NOT NULL,
     emp_setor VARCHAR(30) NOT NULL,
     emp_endereco VARCHAR(200) NOT NULL,
@@ -29,7 +31,7 @@ CREATE TABLE clientes(
 CREATE TABLE produtos(
 	pro_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     pro_nome VARCHAR(100) NOT NULL,
-    pro_valor FLOAT(10,2) NOT NULL,
+    pro_valor FLOAT(10,2) NOT NULL
 );
 
 CREATE TABLE compras(
