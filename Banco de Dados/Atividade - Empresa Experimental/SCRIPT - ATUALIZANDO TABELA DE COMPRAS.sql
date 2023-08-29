@@ -4,7 +4,7 @@ SELECT * FROM produtos;
 SELECT * FROM compras;
 
 # Adicionando um produto na conta de um cliente dentro da tabela de "Compras"
-INSERT INTO compras(com_datacompra, cli_id, pro_id) VALUES ('2023-03-10', 1, 1);
+INSERT INTO compras(com_datacompra, cli_id, pro_id) VALUES ('2023-03-11', 1, 1); # !!! Lembre-se de alterar a data de compra
 
 # Deletando um produto na conta de um cliente dentro da tabela de "Compras"
 DELETE FROM compras
