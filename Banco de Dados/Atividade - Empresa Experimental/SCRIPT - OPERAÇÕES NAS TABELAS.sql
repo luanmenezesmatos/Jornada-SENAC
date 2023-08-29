@@ -1,6 +1,10 @@
 USE ideastudio;
 
+# Operadores de Console MySQL
+SELECT * FROM empresas;
 SELECT * FROM clientes;
+SELECT * FROM produtos;
+SELECT * FROM compras;
 
 # Trazer uma lista de clientes com o nome do cliente e a data de cadastro
 SELECT cli_nome, cli_datacadastro
